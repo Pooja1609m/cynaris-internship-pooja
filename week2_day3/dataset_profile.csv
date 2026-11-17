@@ -1,0 +1,9 @@
+,Data Type,Missing Values,Unique Values
+sale_id,int64,0,120
+sale_date,object,0,10
+region,object,0,3
+category,object,0,3
+product,object,0,7
+quantity,int64,0,7
+sales_amount,float64,0,9
+profit,float64,0,9
