@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "PowerBI_Week3_Day1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "2fd0d9c4-4755-4c42-8ab3-49a8ab521695"
+  }
+}

@@ -1,0 +1,91 @@
+table day5_sales
+	lineageTag: d9802f74-e305-4c3a-849f-fb0781e79cc9
+
+	column sale_id
+		dataType: int64
+		formatString: 0
+		lineageTag: e96a54f9-2f31-402c-a702-0f2a8c71a156
+		summarizeBy: sum
+		sourceColumn: sale_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sale_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3ddbdb77-404b-4784-8e51-ef48e386c5a2
+		summarizeBy: none
+		sourceColumn: sale_date
+
+		variation Variation
+			isDefault
+			relationship: 0e7ec71f-026c-497b-a5c0-e7ceb882cbb8
+			defaultHierarchy: LocalDateTable_f4418b96-a00f-46ca-a50a-1dbfd674e914.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column region
+		dataType: string
+		lineageTag: 96755cea-1362-41ff-88bc-857cce295a4f
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 960999d9-486a-4f72-adf9-e896ad27f859
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column product
+		dataType: string
+		lineageTag: 35810876-0087-4e89-b47c-ffe8a48a7ae2
+		summarizeBy: none
+		sourceColumn: product
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 66d68cbe-2e91-434f-9ad4-8b5596b45de9
+		summarizeBy: sum
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column sales_amount
+		dataType: int64
+		formatString: 0
+		lineageTag: df153c6d-12a8-43cb-a810-c6aedd08ffde
+		summarizeBy: sum
+		sourceColumn: sales_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column profit
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b41ca43-6473-40f7-ae8c-524b719fdd3a
+		summarizeBy: sum
+		sourceColumn: profit
+
+		annotation SummarizationSetBy = Automatic
+
+	partition day5_sales = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\pooja\Downloads\cynaris\cynaris-internship-pooja\day5_sales.csv"), [Delimiter = ",", Columns = 8, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"sale_id", Int64.Type}, {"sale_date", type date}, {"region", type text}, {"category", type text}, {"product", type text}, {"quantity", Int64.Type}, {"sales_amount", Int64.Type}, {"profit", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+
