@@ -1,0 +1,121 @@
+sale_id,sale_date,region,category,product,quantity,sales_amount,profit
+1,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+2,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+3,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+4,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+5,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+6,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+7,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+8,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+9,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+10,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+11,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+12,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+13,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+14,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+15,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+16,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+17,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+18,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+19,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+20,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+21,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+22,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+23,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+24,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+25,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+26,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+27,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+28,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+29,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+30,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+31,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+32,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+33,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+34,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+35,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+36,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+37,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+38,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+39,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+40,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+41,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+42,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+43,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+44,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+45,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+46,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+47,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+48,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+49,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+50,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+51,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+52,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+53,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+54,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+55,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+56,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+57,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+58,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+59,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+60,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+61,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+62,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+63,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+64,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+65,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+66,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+67,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+68,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+69,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+70,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+71,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+72,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+73,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+74,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+75,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+76,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+77,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+78,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+79,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+80,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+81,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+82,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+83,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+84,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+85,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+86,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+87,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+88,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+89,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+90,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+91,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+92,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+93,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+94,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+95,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+96,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+97,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+98,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+99,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+100,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+101,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+102,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+103,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+104,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+105,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+106,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+107,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+108,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+109,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+110,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0
+111,2026-01-05,karnataka,electronics,laptop,2.0,77500.0,10000.0
+112,2026-01-10,kerala,furniture,chair,5.0,15000.0,3000.0
+113,2026-02-12,tamil nadu,electronics,mobile,3.0,45000.0,7000.0
+114,2026-02-15,karnataka,clothing,shirt,9.5,10000.0,2500.0
+115,2026-03-05,kerala,electronics,tablet,4.0,40000.0,6000.0
+116,2026-03-10,tamil nadu,furniture,table,2.0,20000.0,4000.0
+117,2026-03-15,karnataka,electronics,laptop,1.0,40000.0,5000.0
+118,2026-04-02,kerala,clothing,jeans,6.0,18000.0,3500.0
+119,2026-04-08,tamil nadu,electronics,mobile,2.0,30000.0,4500.0
+120,2026-04-12,karnataka,furniture,chair,4.0,12000.0,2500.0

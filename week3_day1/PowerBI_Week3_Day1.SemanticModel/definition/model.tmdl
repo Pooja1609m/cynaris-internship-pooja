@@ -1,0 +1,21 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["day5_sales"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table day5_sales
+ref table DateTableTemplate_456637d1-3c91-4fc0-ad5e-9cebe8034cc4
+ref table LocalDateTable_f4418b96-a00f-46ca-a50a-1dbfd674e914
+
+ref cultureInfo en-IN
+
