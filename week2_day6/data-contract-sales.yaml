@@ -1,0 +1,74 @@
+
+dataContractSpecification: "0.9.3"
+
+id: sales-data-v1
+
+info:
+  title: Sales Data Contract
+  owner: Data Producer
+  consumer: BI Dashboard Team
+  description: Data quality agreement for sales dataset
+
+models:
+  sales:
+    fields:
+      sale_id:
+        type: string
+        required: true
+        unique: true
+        classification: internal
+
+      sale_date:
+        type: date
+        required: true
+        classification: internal
+
+      region:
+        type: string
+        required: true
+        classification: internal
+
+      category:
+        type: string
+        required: true
+        classification: internal
+
+      product:
+        type: string
+        required: true
+        classification: internal
+
+      quantity:
+        type: integer
+        required: true
+        minimum: 1
+
+      sales_amount:
+        type: number
+        required: true
+        minimum: 0
+
+      profit:
+        type: number
+        required: true
+
+quality:
+  freshness:
+    maximum_delay: "2 hours"
+  uniqueness:
+    field: sale_id
+  completeness:
+    required_fields:
+      - sale_id
+      - sale_date
+      - region
+      - category
+      - product
+
+privacy:
+  pii_fields: []
+  classification: internal
+
+sla:
+  availability: "99.5%"
+  freshness: "Within 2 hours"
